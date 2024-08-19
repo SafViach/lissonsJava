@@ -1,0 +1,5 @@
+Student Masha 18 6.9
+Worker Misha 45 500.57
+Worker Vasya 35 700.0
+Student Gosha 20 2.0
+Student Olga 21 9.0

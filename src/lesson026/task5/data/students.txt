@@ -1,0 +1,6 @@
+Ivan Ivanov;FAIS;3;8 5 7 3
+Ignat Naumenko;EF;5;8 3 6 9 6
+Irina Vumnaya;EF;1;9 8 10 9
+Viktor Neznaev;GEF;3;3 6 2 3 1
+Petr Petrov;FAIS;5;1 9 5 3 9
+Maria Lentyaeva;GEF;5;6 5 8 4

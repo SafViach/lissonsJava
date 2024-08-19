@@ -1,0 +1,3 @@
+Igor 500
+Vasya 650
+Petya 800

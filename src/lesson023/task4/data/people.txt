@@ -1,0 +1,5 @@
+Vasya 33 800
+Misha 45 950
+Ira 34 410
+Olya 300
+Kira 26 756

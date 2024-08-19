@@ -1,0 +1,10 @@
+Vova 100
+Dima 150
+Katya 400
+Dima 20
+Vova -50
+Katya 200
+Katya -300
+Katya -300
+Ivan 150
+Dima -180
