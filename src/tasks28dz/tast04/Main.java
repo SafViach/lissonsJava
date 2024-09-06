@@ -1,5 +1,7 @@
 package tasks28dz.tast04;
 
+import tasks28dz.tast04.exceptions.InvalidTXTLine;
+import tasks28dz.tast04.model.CollectionWorkers;
 import tasks28dz.tast04.model.Worker;
 
 import java.io.File;
@@ -24,12 +26,18 @@ public class Main {
         LocalDate date1 = LocalDate.of(1997,07,07);
         Worker worker = new Worker("Slava",date1,5000);
         worker.getWorkers();
-        worker.readerFail(INPUTFILE);
+        try {
+            worker.readerFail(INPUTFILE);
+        } catch (InvalidTXTLine e) {
+            System.out.println(e);;
+        }
         worker.getWorkers();
                 //«Andry;12.08.2000;550»
         //«Vitia;30.10.1987;1500»
         //«Grisha;14.01.2002;780»
         //«Petia;05.02.1997;900»
+        System.out.println("----------------------------");
+        System.out.println(CollectionWorkers.findMaxYear());
 
 
 

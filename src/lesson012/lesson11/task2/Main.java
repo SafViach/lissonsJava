@@ -1,6 +1,6 @@
-package task2;
+package lesson034.task01.task2;
 
-import task2.model.Discount;
+import lesson034.task01.task2.model.Discount;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package task2.model;
+package lesson034.task01.task2.model;
 
 public enum Discount {
     UNDISCOUNTED(1),//public static final Discount UNDISCOUNTED = new Discount("UNDISCOUNTED", 0, 1);

@@ -1,5 +1,6 @@
 package tasks28dz.tast04.model;
 
+import java.time.Period;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -20,5 +21,16 @@ public class CollectionWorkers {
         for (Worker work : workers) {
             System.out.println(work);
         }
+    }
+    static public Worker findMaxYear(){
+        Worker maxYearWorker = workers.iterator().next();
+        int maxYear = 0;
+        for (Worker worker : workers) {
+            Period period =Period.between(worker.getDate(),maxYearWorker.getDate());
+            if (period.getYears() > maxYear){
+                maxYearWorker = worker;
+            }
+        }
+        return maxYearWorker;
     }
 }

@@ -67,11 +67,13 @@ public class Worker {
             // System.out.println(matcher.group(1)+" "+ matcher.group(2)+ " "+ matcher.group(3)+" sout ");
             LocalDate date = LocalDate.parse(matcher.group(2),formatter);
             worker = new Worker(matcher.group(1),date,Double.valueOf(matcher.group(3)));
-        }else new InvalidTXTLine("по данному формату:"+ regex + " не нашлось значения");
+        }
+        new InvalidTXTLine("по данному формату:"+ regex + " не нашлось значения");
+
         return worker;
     }
 
-    public void readerFail(String file ){
+    public void readerFail(String file )throws InvalidTXTLine{
         try (BufferedReader br = new BufferedReader(new FileReader(file))){
             String fileLine = null;
             while((fileLine = br.readLine())!=null){
@@ -80,8 +82,6 @@ public class Worker {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
-        }catch (InvalidTXTLine e){
             e.printStackTrace();
         }
     }
