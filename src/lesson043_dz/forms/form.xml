@@ -1,0 +1,31 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="cats">
+      <xs:complexType>
+          <xs:sequence>
+              <xs:element type="Cat" name="cat" maxOccurs="unbounded"></xs:element>
+          </xs:sequence>
+      </xs:complexType>
+  </xs:element>
+    <xs:complexType name="Cat">
+        <xs:sequence>
+            <xs:element name="id" type="regexForId"></xs:element>
+            <xs:element name="name" type="notEmptyString"></xs:element>
+            <xs:element name="age" type="notEmptyInteger"></xs:element>
+            <xs:element name="gender" type="notEmptyString"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="regexForId">
+        <xs:restriction base="xs:token">
+            <xs:pattern value="(112|643)09(81|56)\d{8}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="notEmptyString">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="notEmptyInteger">
+        <xs:restriction base="xs:positiveInteger">
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

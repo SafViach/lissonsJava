@@ -1,0 +1,16 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cats">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cat" type="Cat" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="Cat">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="age" type="xs:double"/>
+        </xs:sequence>
+        <xs:attribute name="number" type="xs:positiveInteger"/>
+    </xs:complexType>
+</xs:schema>

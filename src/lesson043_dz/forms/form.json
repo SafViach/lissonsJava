@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type":"object",
+  "items":{
+    "type":"object",
+    "required":[
+      "id",
+      "name",
+      "age",
+      "gender"
+    ],
+
+    "properties":{
+      "id":{
+        "type":"integer",
+        "pattern":"(112|643)09(81|56){8}"
+      },
+      "name":{
+        "type":"string",
+        "minimum":1
+      },
+      "age":{
+        "type":"integer",
+        "minimum":1
+      },
+      "gender":{
+        "type":"string",
+      }
+    }
+  }
+}

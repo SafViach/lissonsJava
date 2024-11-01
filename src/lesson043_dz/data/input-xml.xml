@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cats>
+    <cat>
+        <id>112098100000001</id>
+        <name>Prince of Persia</name>
+        <age>1</age>
+        <gender>male</gender>
+    </cat>
+    <cat>
+        <id>643095600000002</id>
+        <name>Princess</name>
+        <age>2</age>
+        <gender>female</gender>
+    </cat>
+    <cat>
+        <id>112098100000010</id>
+        <name>Conan the Barbarian</name>
+        <age>2</age>
+        <gender>male</gender>
+    </cat>
+    <cat>
+        <id>643095600000020</id>
+        <name>Quinn</name>
+        <age>3</age>
+        <gender>female</gender>
+    </cat>
+    <cat>
+        <id>112098100000100</id>
+        <name>Hooligan</name>
+        <age>2</age>
+        <gender>male</gender>
+    </cat>
+    <cat>
+        <id>643095600000200</id>
+        <name>Beauty</name>
+        <age>3</age>
+        <gender>female</gender>
+    </cat>
+    <cat>
+        <id>112098100000300</id>
+        <name>Lazy</name>
+        <age>2</age>
+        <gender>male</gender>
+    </cat>
+    <cat>
+        <id>643095600000400</id>
+        <name>Black Mamba</name>
+        <age>3</age>
+        <gender>female</gender>
+    </cat>
+    <cat>
+        <id>112098100001000</id>
+        <name>Sausage</name>
+        <age>7</age>
+        <gender>male</gender>
+    </cat>
+    <cat>
+        <id>643095600002000</id>
+        <name>Night hunter</name>
+        <age>5</age>
+        <gender>female</gender>
+    </cat>
+    <cat>
+        <id>112098100010000</id>
+        <name>Sphinx</name>
+        <age>7</age>
+        <gender>male</gender>
+    </cat>
+    <cat>
+        <id>643095600020000</id>
+        <name>East Star</name>
+        <age>5</age>
+        <gender>female</gender>
+    </cat>
+</cats>

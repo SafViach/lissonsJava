@@ -1,0 +1,76 @@
+{
+  "cats": [
+    {
+      "id": "112098100000001",
+      "name": "Prince of Persia",
+      "age": 1,
+      "gender": "male"
+    },
+    {
+      "id": "643095600000002",
+      "name": "Princess",
+      "age": 2,
+      "gender": "female"
+    },
+    {
+      "id": "112098100000010",
+      "name": "Conan the Barbarian",
+      "age": 2,
+      "gender": "male"
+    },
+    {
+      "id": "643095600000020",
+      "name": "Quinn",
+      "age": 3,
+      "gender": "female"
+    },
+    {
+      "id": "112098100000100",
+      "name": "Hooligan",
+      "age": 2,
+      "gender": "male"
+    },
+    {
+      "id": "643095600000200",
+      "name": "Beauty",
+      "age": 3,
+      "gender": "female"
+    },
+    {
+      "id": "112098100000300",
+      "name": "Lazy",
+      "age": 2,
+      "gender": "male"
+    },
+    {
+      "id": "643095600000400",
+      "name": "Black Mamba",
+      "age": 3,
+      "gender": "female"
+    },
+    {
+      "id": "112098100001000",
+      "name": "Sausage",
+      "age": 7,
+      "gender": "male"
+    },
+    {
+      "id": "643095600002000",
+      "name": "Night hunter",
+      "age": 5,
+      "gender": "female"
+    },
+    {
+      "id": "112098100010000",
+      "name": "Sphinx",
+      "age": 7,
+      "gender": "male"
+    },
+    {
+      "id": "643095600020000",
+      "name": "East Star",
+      "age": 5,
+      "gender": "female"
+    }
+  ]
+}

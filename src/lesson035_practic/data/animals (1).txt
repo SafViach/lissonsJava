@@ -1,0 +1,20 @@
+112098100000001;cat;Prince of Persia;02-03-2022,Persian Cat,prince^persia@yandex.ru
+112095600000002;dog;Princess;12-05-2021,Cardigan Welsh Corgi,pr|nce$$@gmail.com
+112098100000010;cat;Quinn;24-01-2022,Scottish Fold Cat,quinn2liz@yandex.ru
+112095600000020;dog;Conan the Barbarian;15-11-2019,Alaskan Malamute,black.arny@mail.ru
+112098100000100;cat;Beauty;21-01-2021,Russian Blue Cat,russian-beauty@mail.ru
+112095600000200;dog;Hooligan;22-03-2017,Toy Fox Terrier,hooliyougan@yandex.ru
+112098100001000;cat;Murzik;01-01-2017,Manx Cat,simpleyard@yandey.ru
+112095600002000;dog;Tuzik;10-12-2016,DvorTerrier,underyard@mail.ru
+112098100010000;cat;Black Mamba;12-04-2020,Chartreux Cat,mamba123@yahoo.com
+112095600020000;dog;Lazy;02-11-2019,Corgi,lazy-corhi@gmail.co
+112098100100000;cat;Night hunter;24-03-2021,British Shorthair Cat,hunter-amll-night@yahoo.com
+112095600200000;dog;Sausage;02-11-2021,Dackel,long.sausage@gmail.com
+112098101000000;cat;Sphinx;11-03-2019,American Shorthair Cat,egypet-sphinx@yahoo.com
+112095602000000;dog;Osiris;17-08-2019,English Foxhound,fox-to-collar@mail.ru
+112098110000000;cat;Munchkin;11-01-2022,Munchkin Cat,munch-to$@yahoo.com
+112095620000000;dog;Speedy;05-02-2022,Siberian Husky,most-$peedy@mail.ru
+112098100000011;cat;East Star;12-03-2017,Himalayan Cat,shambala-cath@yahoo.com
+112095600000022;dog;Chubby;22-11-2017,Collie,star-wars-driver@mail.ru
+112098100000110;cat;Hard siberian man,24-01-2018;Siberian Cat,eltcin@yandex.com
+112095600000220;dog;Terry;15-11-2018,Pointer,terry-pointerarny@mail.ru
